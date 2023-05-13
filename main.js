@@ -1,2 +1,7 @@
-console.log(ardasher); // Uncaught ReferenceError: ardasher is not defined
-let ardasher = 20;
+function ardasher(n) {
+    if (n > 0) {
+      ardasher(n - 1);
+    }
+    console.log(n);
+  }
+  
